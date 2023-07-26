@@ -1,6 +1,56 @@
+/* Applies universal spacing and text style */
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
     font-family: sans-serif;
+    text-align: center;
+}
+
+body {
+    background-color: navy;
+}
+
+header {
+    margin-top: 5%;
+}
+
+h1,
+h2,
+h3,
+li,
+label,
+span {
+    color: white;
+    font-family:'Courier New', Courier, monospace;
+    margin-bottom: 20px;
+}
+
+input {
+    margin-bottom: 50px;
+}
+
+label,
+li {
+    font-size: 25px;
+}
+
+button {
+    color: black;
+    font-family:'Courier New', Courier, monospace;
+    font-weight: bolder;
+    font-size: 25px;
+    width: 500px;
+    margin: 20px;
+}
+
+#answers {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+}
+
+ul {
+    list-style-type: none;
 }
